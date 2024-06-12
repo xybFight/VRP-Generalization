@@ -5,14 +5,13 @@ This paper take a novel perspective on model architecture to enhance the general
 1. Implementation of Entropy-based Scaling Factor：
    <p align="center"><img src="./imgs/ESF.jpg" width=95%></p>
    
-   1) Given a fix size-trained ($$n_{tr}$$) model (e.g., POMO), just need apply $$log_{n_{tr}}n_{te}$$ within each attention module when solving VRPs of size $$n_{te}$$;
-   2) Given an unfixed size-trained model (e.g., OMNI-VRP), just set a baseline $$n_{b}$$ (e.g., 50), and then apply $$log_{n_{b}}n_{tr}$$ and $$log_{n_{b}}n_{te}$$ during training and testing, respectively.
-
+   1) Given a fix size-trained ($n_{tr}$) model (e.g., POMO), just need apply $\log_{n_{tr}}n_{te}$ within each attention module when solving VRPs of size $n_{te}$;
+   2) Given an unfixed size-trained model (e.g., OMNI-VRP), just set a baseline $n_{b}$ (e.g., 50), and then apply $\log_{n_{b}}n_{tr}$ and $\log_{n_{b}}n_{te}$ during training and testing, respectively.
 
    We present the results of 2) on OMNI-VRP of solving CVRP (Just apply the ESF within each attention module).
    For 1), you can verify it by yourself.
 
-3. Implementation of DS decoder：
+2. Implementation of DS decoder：
    <p align="center"><img src="./imgs/DS.jpg" width=95%></p>
    The DS decoder explicitly models VRPs of multiple training distribution patterns through multiple auxiliary light decoders.
 
