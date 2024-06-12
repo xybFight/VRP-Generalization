@@ -25,4 +25,17 @@ This paper take a novel perspective on model architecture to enhance the general
   * https://github.com/RoyalSkye/Omni-VRP
 
 
+### Citation
 
+If you find our paper and code useful, please cite our paper:
+
+```tex
+@misc{xiao2024improving,
+      title={Improving Generalization of Neural Vehicle Routing Problem Solvers Through the Lens of Model Architecture}, 
+      author={Yubin Xiao and Di Wang and Xuan Wu and Yuesong Wu and Boyang Li and Wei Du and Liupu Wang and You Zhou},
+      year={2024},
+      eprint={2406.06652},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+```
