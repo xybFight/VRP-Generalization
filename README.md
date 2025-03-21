@@ -1,5 +1,7 @@
 <h1 align="center"> Improving Generalization of Neural Vehicle Routing Problem Solvers Through the Lens of Model Architecture </h1>
 
+* This work has been accepted by Neural Networks in Mar 2025. see [pdf](https://www.sciencedirect.com/science/article/pii/S089360802500259X) or [arxiv version](https://arxiv.org/abs/2406.06652)
+
 This paper take a novel perspective on model architecture to enhance the generalization of neural VRP solvers, specifically propose an Entropy-based Scaling Factor (ESF) and a Distribution-Specific (DS) decoder to enhance the size and distribution generalization, respectively.
 <p align="center"><img src="./imgs/ESF.jpg" width=95%></p>
 1. Implementation of Entropy-based Scaling Factor：
@@ -32,12 +34,12 @@ This paper take a novel perspective on model architecture to enhance the general
 If you find our paper and code useful, please cite our paper:
 
 ```tex
-@misc{xiao2024improving,
-      title={Improving Generalization of Neural Vehicle Routing Problem Solvers Through the Lens of Model Architecture}, 
-      author={Yubin Xiao and Di Wang and Xuan Wu and Yuesong Wu and Boyang Li and Wei Du and Liupu Wang and You Zhou},
-      year={2024},
-      eprint={2406.06652},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
+@article{XIAO2025107380,
+title = {Improving generalization of neural Vehicle Routing Problem solvers through the lens of model architecture},
+journal = {Neural Networks},
+volume = {187},
+pages = {107380},
+year = {2025},
+author = {Yubin Xiao and Di Wang and Xuan Wu and Yuesong Wu and Boyang Li and Wei Du and Liupu Wang and You Zhou},
 }
 ```
